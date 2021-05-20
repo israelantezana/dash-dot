@@ -11,3 +11,4 @@ Scenario:
     Given visito la pagina de bienvenida  
     When presiono el boton para dar inicio  
     Then deberia ver el mensaje "Comandos a ejecutar" 
+

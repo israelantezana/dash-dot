@@ -5,6 +5,6 @@ Feature:
 
 Scenario:
     Given visito la pagina de comandos
-    When ingreso el posicion inicial del auto "2,2"
+    When ingreso el posicion inicial del auto "2,2\n1,3"
     And presiono el boton "ejecutar"
-    Then deberia mostrar la posicion inicial del auto "Posicion Inicial: 2,2"
+    Then deberia mostrar la posicion inicial del auto "Posicion Inicial: 2,2\\n1,3"
